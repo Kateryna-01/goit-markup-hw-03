@@ -12,7 +12,7 @@
 .container{
         /* width: 100%;
         max-width: 1200px; */
-        width: 1170px;
+        width: 1200px;
         margin-left: auto;
         margin-right: auto;
         padding-left: 15px;
@@ -67,6 +67,7 @@ img {
 /*-------------------HEADER-------------------*/
 .header-nav {
         display: flex;
+        align-items: center;
 }
 .header-list {
         display: flex;
@@ -80,8 +81,7 @@ img {
 }
 
 .header{
-        padding-top: 25px;
-        padding-bottom: 25px;
+
         border-bottom: #ECECEC 1px solid;
 }
 
@@ -107,6 +107,7 @@ img {
         color: var(--color-link);
 }
 .header-link{
+        display: block;
         padding-top: 32px;
         padding-bottom: 32px;
 
@@ -243,7 +244,10 @@ color: var(--color-link);
         background-color: #F5F4FA;
 }
 
-
+.team-box{
+        padding-top: 30px;
+        padding-bottom: 30px;
+}
 .team-list{
         display: flex;
         gap: 30px;
@@ -261,14 +265,9 @@ color: var(--color-link);
         background-color: #FFFFFF;
 }
 
-.team-item > img{
-        margin-bottom: 30px;
-}
-.team-item > h3{
-        margin-bottom: 10px;
-}
-
 .team-name{
+        margin-bottom: 10px;
+
         font-weight: 500;
         font-size: 16px;
         line-height: 1.19;
@@ -278,7 +277,6 @@ color: var(--color-link);
 }
 
 .team-text{
-        margin-bottom: 30px;
         font-size: 16px;
         line-height: 1.19;
         text-align: center;
@@ -331,6 +329,7 @@ color: var(--color-link);
 }
 
 .portfolio-btn-list{
+        margin-bottom: 50px;
         display: flex;
         justify-content: center;
         gap: 8px;
@@ -343,7 +342,6 @@ color: var(--color-link);
 
 
 .portfolio-btn{
-        margin-bottom: 50px; 
         padding: 6px 22px;
         
         font-weight: 500;
